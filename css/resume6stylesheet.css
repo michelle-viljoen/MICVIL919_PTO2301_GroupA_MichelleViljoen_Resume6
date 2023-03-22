@@ -1,0 +1,92 @@
+h3 {
+    padding: 5px;
+    color: aqua;
+    position:relative;
+    position: relative;
+    left: 50px;
+
+}
+
+
+
+.container {
+    display: table;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.left-section {
+
+    position: absolute;
+    left: 50px;
+    width: 20%;
+
+}
+
+.right-section {
+
+    position:absolute;
+    right: 0px;
+    width: 80%
+
+}
+.heading-links {
+    position:relative;
+    top: 100px;
+    color: bisque;
+}
+.about {
+    position:relative;
+    left:40px;
+
+    border-radius: 50%;
+    position:relative;
+    margin: 50px;
+}
+.info {
+    position:absolute;
+    top: 400px;
+    padding: 30px;
+    margin: 20px;
+}
+p {
+    border-width: 20px;
+    border-left: white;
+    border-right: white;
+
+
+
+} 
+.box1 {
+    flex: 3;
+   width: 20%;
+    padding: 10px;
+}
+ .box2 {
+    flex: 2;
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+ }
+ .box3 {
+    flex: 3;
+    padding: 10px;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+
+ } ul.nav > li {
+display: inline-block;
+padding: 10px;
+ } 
+ ul.nav {
+    padding: 0px;
+    background-color: bisque;
+    text-align: center;
+
+ }
